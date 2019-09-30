@@ -23,12 +23,17 @@ public class SumMatrixElements {
         }
 
         for (int i = 0; i <matrix.length ; i++) {
-                for (int number:matrix[i]
-                     ) {
-                    sumNumber+=number;
-                }
+                //for (int number:matrix[i]
+                  //   ) {
+                    //sumNumber+=number;
+
+            for (int j = 0; j <matrix[i].length ; j++) {
+                sumNumber+=matrix[i][j];
 
             }
+                }
+
+
 
 
         System.out.println(row);

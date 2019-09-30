@@ -12,10 +12,10 @@ public class PositionsOf {
         int [][] matrix = new int [numbers[0]][numbers[1]];
 
         for (int i = 0; i <matrix.length ; i++) {
-            int [] input=Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+            matrix[i]=Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             //  String []input = sc.nextLine().split("\\s+");
             //for (int j = 0; j <input.length ; j++) {
-            matrix[i]= input;
+
 
         }
 

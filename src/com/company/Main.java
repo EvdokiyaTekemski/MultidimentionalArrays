@@ -25,7 +25,7 @@ public class Main {
         }
         boolean isTrue = matricesAreEqual(firstMatrix,secondMatrix);
         if(isTrue){
-            System.out.println("equal");
+            System.out.println("еqual");
         }else {
             System.out.println("not equal");
         }

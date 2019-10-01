@@ -27,7 +27,8 @@ public class MaximumSumof2x2Submatrix {
 
         int maxSum=0;
         for (int i = 0; i < matrix.length; i++)
-            for (int j = 0; j < matrix[i].length; j++)
+            for (int j = 0; j < matrix[i
+                    ].length; j++)
                 for (int k = i; k < matrix.length; k++)
                     for (int l = j; l < matrix[i].length; l++) {
 

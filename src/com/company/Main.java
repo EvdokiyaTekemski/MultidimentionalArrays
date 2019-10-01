@@ -5,6 +5,27 @@ import java.util.Scanner;
 
 public class Main {
 
+    //   static void PrintResult(int[][] matrixA,int [][] matrixB ){
+    //     for (int row = 0; row <matrixA.length ; row++) {
+    ///       for (int col = 0; col <matrixA[row].length ; col++) {
+    //        System.out.print(Arrays.toString(matrixA[row]));
+    //  }
+    //System.out.println();
+
+    //}
+
+    //for (int i = 0; i <matrixB.length ; i++) {
+    //  for (int j = 0; j <matrixB[i].length ; j++) {
+    //    System.out.println(Arrays.toString(matrixB[i]));
+
+    //}
+    //System.out.println();
+    //}
+
+
+
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String [] input = scanner.nextLine().split(" ");
